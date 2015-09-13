@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>Syncthing</short>
+  <description>Syncthing replaces proprietary sync and cloud services with something open</description>
+  <port protocol="tcp" port="22000"/>
+  <port protocol="tcp" port="8384"/>
+  <!-- <port protocol="udp" port="21026"/> -->
+  <!-- <port protocol="udp" port="21025"/> -->
+</service>
